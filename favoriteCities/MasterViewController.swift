@@ -34,10 +34,23 @@ class MasterViewController: UITableViewController {
 
     @objc
     func insertNewObject(_ sender: Any) {
-        objects.insert(NSDate(), at: 0)
-        let indexPath = IndexPath(row: 0, section: 0)
-        tableView.insertRows(at: [indexPath], with: .automatic)
+        let alert = UIAlertController(title: "Add City", message: nil, preferredStyle: .alert)
+        alert.addTextField { (textfield) in
+            textField.placeholder = "City"
+            
+        }
+        alert.addTextField { (textfield) in
+            textField.placeholder = "State"
+        }
+        alert.addTextField { (textfield) in
+            textField.placeholdre = "Population"
+            textField.keyBoardType = .numberPad
+        }
+        let cancelAction
+            
+        
     }
+    
 
     // MARK: - Segues
 
