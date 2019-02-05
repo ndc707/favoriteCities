@@ -98,7 +98,6 @@
                     <navigationItem key="navigationItem" title="City Details" id="mOI-FS-AaM"/>
                     <connections>
                         <outlet property="cityTextField" destination="yd3-J5-pdq" id="w7h-G8-v9Z"/>
-                        <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
                         <outlet property="imageView" destination="ON5-ST-7jY" id="EZS-2A-WGO"/>
                         <outlet property="populationTextField" destination="hKX-Pb-pvN" id="VLA-D1-C9x"/>
                         <outlet property="stateTextField" destination="K9o-at-Pfo" id="7cL-Bx-ZQ3"/>
@@ -159,7 +158,7 @@
                             <outlet property="delegate" destination="7bK-jq-Zjz" id="RA6-mI-bju"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="Zdf-7t-Un8"/>
+                    <navigationItem key="navigationItem" title="Favorite Cities" id="Zdf-7t-Un8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>

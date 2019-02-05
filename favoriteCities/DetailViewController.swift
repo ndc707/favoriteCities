@@ -31,8 +31,9 @@ class DetailViewController: UIViewController {
     
     
     func configureView() {
+        //Update the user interface for the detail item
         if let city = self.detailItem {
-            if cityTextField != nil{
+            if cityTextField != nil {
                 cityTextField.text = city.name
                 stateTextField.text = city.state
                 populationTextField.text = String(city.population)
